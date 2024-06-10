@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Card(params) {
   return (
     <Fancycard>
-      <p>{params.text}</p>
+      {params.selected? <p>{params.text}</p>: null}
       <img draggable='false' src={params.source} alt={params.name} />
       
     </Fancycard>

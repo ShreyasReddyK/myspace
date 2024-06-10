@@ -1,14 +1,13 @@
 import './App.css'
-import Card from './components/Card'
-import apple from './assets/appleimg.png'
-import styled from 'styled-components'
-
+import Counter from './components/Counter'
+import Fruits from './pages/Fruits'
 
 function App() {
 
   return (
     <>
-      <Card name="apple" source={apple} text="this is an apple"/>
+      <Counter/>
+      <Fruits/>
     </>
   )
 }
